@@ -10,7 +10,7 @@
 		
 			<div class="col-md-6">
 			  <h2><font size="6" style="font-family:Open Sans" color="black"><?php echo $row['judul'];?></font></h2>
-			  <p><?php echo $row['sinopsis'];?></p>
+			  <p><?php echo $row['sinopsis'];?></p><br>
 				<video width="320" height="240" controls>
 				  <source src="trailer/<?php echo $row['trailer'];?>" type="video/mp4">
 				  Your browser does not support the video tag.
