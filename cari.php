@@ -11,7 +11,7 @@
 			  <p><b>Sinopsis : </b><?php echo $row['sinopsis_f'];?></p>
 			  <p><b>Kategori : </b><?php echo $row['kategori_f'];?></p>
 			  <p><a href="http://www.imdb.com/" target="_blank"> <b>Rating IMDB : </b></a> <?php echo $row['rating_f'];?></p>
-			  <p><b>Kategori Usia : </b><?php echo $row['usia_f'];?></p>
+			  <p><b>Kategori Usia : </b><?php echo $row['usia_f'];?></p></br>
 			  <p><b>Status film : </b><?php echo $row['status'];?></p>
 			</div>
 			
